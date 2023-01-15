@@ -67,6 +67,11 @@ header nav {
     color: #FFFFFF;
     margin-bottom: 50px;
 }
+.banner-button:hover {
+    border: none;
+    background-color: black;
+    transition: all 0.7s ease-in-out 0s;
+}
 
 .banner-img img {
     width: 100%;
@@ -136,6 +141,11 @@ header nav {
     line-height: 23px;
     color: #FFFFFF;
 }
+.section-btn:hover {
+    border: none;
+    background-color: black;
+    transition: all 0.7s ease-in-out 0s;
+}
 
 .features-service {
     padding: 0 200px;
@@ -186,6 +196,11 @@ header nav {
     margin-top: -190px;
     margin-left: -10px;
 }
+.features-service-btn:hover {
+    border: none;
+    background-color: black;
+    transition: all 0.7s ease-in-out 0s;
+}
 
 .btn-special-text {
     font-size: 65px;
@@ -214,6 +229,18 @@ header nav {
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
+}
+.success-items .item:hover {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    /* transition: all .3s ease; */
+    transition: all 0.7s ease-in-out 0s;
+}
+.success-items .item:hover  .item-title{
+    color: #FFFFFF!important;
+}
+.success-items .item:hover  .item-description{
+    color: #FFFFFF!important;
 }
 
 .item-title {
@@ -349,7 +376,33 @@ header nav {
     header {
         padding: 50px 20px;
     }
-
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .logo a{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    } */
+    .menu {
+        width: 100%;
+    }
+    .menu ul{
+        flex-direction: column;
+        background-color: #F5F5F5;
+        text-align: center;
+        gap: 0px;
+        padding: 5px 0;
+        margin-top: 25px;
+    }
+    .menu ul li{
+        border-bottom: 1px solid #eaeaea;
+        padding: 15px 0;
+    }
+    .menu ul li:hover{
+        background-color: #FF900E;
+    }
     /* styles of the responsive features */
     .features {
         display: flex;
