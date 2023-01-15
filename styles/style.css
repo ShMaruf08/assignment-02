@@ -242,17 +242,17 @@ header nav {
     padding: 0 250px;
 }
 
-.sponsor-img {
+.sponsors-img {
     display: flex;
     gap: 100px;
     margin-top: 50px;
 }
 
-.sponsor-img>div {
+.sponsors-img>div {
     width: 20%;
 }
 
-.sponsor-img img {
+.sponsors-img img {
     width: 100%;
     filter: grayscale();
 }
@@ -349,10 +349,10 @@ header nav {
     }
     
     .sponsors-text {
-        padding: 0 0;
+        padding: 0 20px;
     }
     
-    .sponsor-img {
+    .sponsors-img {
         display: flex;
         margin-top: 100px;
         gap: 60px;
@@ -361,13 +361,16 @@ header nav {
         justify-content: center;
     }
     
-    .sponsor-img>div {
+    .sponsors-img>div {
         width: 60%;
     }
     
     /* responsive style of the footer area */
     .footer {
         margin: 130px 20px 200px 20px;
+    }
+    .footer-text {
+        font-size: 15px;
     }
 
 }
